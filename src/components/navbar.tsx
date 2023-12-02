@@ -28,6 +28,9 @@ function Navbar() {
           <Link href={`/movies`}>
             <p className="text-white hover:text-gray-300">Movies</p>
           </Link>
+          <Link href={`/favorite`}>
+            <p className="text-white hover:text-gray-300">Favorite</p>
+          </Link>
         </div>
 
         {/* Burger Menu for Small Screens */}
